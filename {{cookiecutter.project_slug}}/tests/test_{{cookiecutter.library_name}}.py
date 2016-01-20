@@ -2,18 +2,18 @@
 # -*- coding: utf-8 -*-
 
 """
-test_{{ cookiecutter.project_slug }}
+test_{{ cookiecutter.library_name }}
 ----------------------------------
 
-Tests for `{{ cookiecutter.project_slug }}` module.
+Tests for `{{ cookiecutter.library_name }}` module.
 """
 
 import unittest
 
-from {{ cookiecutter.project_slug }} import {{ cookiecutter.project_slug }}
+from {{ cookiecutter.library_name }} import {{ cookiecutter.library_name }}
 
 
-class Test{{ cookiecutter.project_slug|capitalize }}(unittest.TestCase):
+class Test{{ cookiecutter.library_name|capitalize }}(unittest.TestCase):
 
     def setUp(self):
         pass

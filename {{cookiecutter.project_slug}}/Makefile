@@ -46,7 +46,7 @@ clean-test:
 	rm -fr htmlcov/
 
 lint:
-	flake8 {{ cookiecutter.project_slug }} tests
+	flake8 {{ cookiecutter.library_name }} tests
 
 test:
 	python setup.py test

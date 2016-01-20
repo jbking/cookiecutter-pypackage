@@ -31,10 +31,10 @@ setup(
     author_email='{{ cookiecutter.email }}',
     url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}',
     packages=[
-        '{{ cookiecutter.project_slug }}',
+        '{{ cookiecutter.library_name }}',
     ],
-    package_dir={'{{ cookiecutter.project_slug }}':
-                 '{{ cookiecutter.project_slug }}'},
+    package_dir={'{{ cookiecutter.library_name }}':
+                 '{{ cookiecutter.library_name }}'},
     include_package_data=True,
     install_requires=requirements,
     license="ISCL",
